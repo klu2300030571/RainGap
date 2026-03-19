@@ -83,3 +83,48 @@ Phase 3:
 - Fraud detection system
 - Instant payout system (mock)
 - Dashboard for workers and admin
+
+
+
+## Adversarial Defense & Anti-Spoofing Strategy
+
+RainGap is designed to detect and prevent fake claims while protecting genuine delivery workers.
+
+### Threats
+- Fake GPS location
+- Multiple fake claims from same area
+- Fraud rings trying to get payouts
+
+### Defense Strategy
+
+1. Multi-Layer Location Check
+The system verifies:
+- GPS location
+- time consistency
+- match with real weather data in that area
+
+2. Activity Verification
+The system checks:
+- if worker was active before the claim
+- number of orders compared to normal days
+- sudden abnormal changes in activity
+
+3. Fraud Pattern Detection
+The system identifies:
+- multiple users claiming from same location at same time
+- repeated claims from suspicious accounts
+
+4. Risk Scoring
+Each claim is given a risk score:
+- low risk → auto payout
+- high risk → flagged for review
+
+5. Protect Genuine Users
+- claims are not rejected based on one factor
+- system uses multiple checks before blocking
+- genuine workers are not penalized
+
+6. Emergency Control (Market Crash)
+- limit payouts during suspicious spikes
+- enable manual review for risky claims
+- monitor unusual claim activity
