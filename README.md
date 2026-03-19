@@ -5,3 +5,17 @@ Food delivery workers (Swiggy/Zomato) depend on daily orders for income. During 
 
 ## Persona
 Ravi is a Zomato delivery partner working in a busy urban area. On normal days, he earns around ₹600 per day. During heavy rain, he stays active on the app but receives fewer orders and spends more time per delivery. As a result, his earnings drop to less than ₹100 or sometimes zero. Ravi needs a system that can understand this drop in earning potential and support him financially during such conditions.
+
+
+
+## Solution Overview
+RainGap is a system that gives money to delivery workers when heavy rain reduces their income.
+
+## Workflow
+1. Worker registers in the app
+2. Worker selects a weekly insurance plan
+3. System checks weather data regularly
+4. When heavy rain occurs, system detects it
+5. System checks if worker is active but getting fewer orders
+6. If income is reduced, claim is triggered automatically
+7. Worker receives payout
