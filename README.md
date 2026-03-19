@@ -19,3 +19,14 @@ RainGap is a system that gives money to delivery workers when heavy rain reduces
 5. System checks if worker is active but getting fewer orders
 6. If income is reduced, claim is triggered automatically
 7. Worker receives payout
+
+
+
+## Weekly Premium Model
+Workers pay a small weekly amount (₹20–₹30) to stay insured. When heavy rain affects their work and reduces their income, they receive a payout of around ₹300–₹500 depending on the situation.
+
+## Parametric Triggers
+The system automatically triggers payout when:
+- Rainfall crosses a certain level (heavy rain)
+- Worker activity drops during that time
+- Fewer orders are received compared to normal days
