@@ -30,3 +30,21 @@ The system automatically triggers payout when:
 - Rainfall crosses a certain level (heavy rain)
 - Worker activity drops during that time
 - Fewer orders are received compared to normal days
+
+## AI/ML Integration
+RainGap uses AI to make the system smarter and more accurate.
+
+1. Risk Prediction
+The system analyzes weather data and location to predict how likely heavy rain will affect delivery work.
+
+2. Income Drop Detection
+AI compares the worker’s current activity (orders, deliveries) with normal days to detect a drop in earnings.
+
+3. Dynamic Premium
+Premium amount is adjusted based on risk level. High-risk areas may have slightly higher premiums.
+
+4. Fraud Detection
+AI detects fake claims by checking:
+- unusual activity patterns
+- repeated claims
+- mismatch between location and weather data
