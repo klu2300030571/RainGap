@@ -67,3 +67,19 @@ Database:
 
 Payment:
 - Razorpay (test mode)
+
+## Platform Choice
+RainGap is developed as a Web application because it is easy to access, faster to build, and works across multiple devices without installation.
+
+## Development Plan
+
+Phase 2:
+- User registration system
+- Insurance plan selection
+- Weather-based trigger detection
+- Basic claim automation
+
+Phase 3:
+- Fraud detection system
+- Instant payout system (mock)
+- Dashboard for workers and admin
