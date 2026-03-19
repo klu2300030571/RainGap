@@ -48,3 +48,22 @@ AI detects fake claims by checking:
 - unusual activity patterns
 - repeated claims
 - mismatch between location and weather data
+
+## Tech Stack
+Frontend:
+- React / HTML
+
+Backend:
+- Node.js / Spring Boot
+
+AI/ML:
+- Python
+
+APIs:
+- OpenWeather API (for weather data)
+
+Database:
+- MongoDB / MySQL
+
+Payment:
+- Razorpay (test mode)
